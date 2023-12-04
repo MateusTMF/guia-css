@@ -1,0 +1,168 @@
+/* 1. Seletores:
+
+Elemento: */
+p {
+  /* Estilos para parágrafos */
+}
+
+/* ID: */
+#header {
+  /* Estilos para o elemento com id="header" */
+}
+
+/* Classe: */
+.destaque {
+  /* Estilos para todos os elementos com a classe "destaque" */
+}
+
+/* Combinadores: */
+article p {
+  /* Estilos para parágrafos dentro de elementos <article> */
+}
+
+/* 2. Propriedades de Texto:
+
+Color: */
+p {
+  color: #333; /* Cor do texto em tom de cinza escuro */
+}
+
+/* Font-Family: */
+body {
+  font-family: 'Arial', sans-serif; /* Fonte principal com fallback */
+}
+
+/* Font-Size: */
+h1 {
+  font-size: 2em; /* Tamanho de fonte 2 vezes o tamanho padrão */
+}
+
+/* Font-Weight: */
+strong {
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* Text-Align: */
+.center {
+  text-align: center; /* Alinhamento central */
+}
+
+/* 3. Propriedades de Layout:
+
+Width e Height: */
+.container {
+  width: 100%; /* Largura ocupando 100% do contêiner pai */
+  height: 300px; /* Altura fixa de 300 pixels */
+}
+
+/* Margin e Padding: */
+.box {
+  margin: 10px; /* Margens externas de 10 pixels */
+  padding: 20px; /* Preenchimento interno de 20 pixels */
+}
+
+/* Border: */
+.bordered {
+  border: 1px solid #ccc; /* Borda sólida de 1 pixel com cor cinza claro */
+}
+
+/* 4. Display e Position:
+
+Display: */
+.flex-container {
+  display: flex; /* Ativa o modelo de layout flexível */
+}
+
+/* Position: */
+.absolute-position {
+  position: absolute; /* Posicionamento absoluto */
+  top: 0;
+  left: 0;
+}
+
+/* 5. Cores e Fundos:
+Background-Color: */
+.highlight {
+  background-color: yellow; /* Cor de fundo amarela */
+}
+
+/* Background-Image: */
+.bg-image {
+  background-image: url('imagem.jpg'); /* Imagem de fundo */
+  background-size: cover; /* Cobrir completamente o elemento */
+}
+
+/* Color: */
+.white-text {
+  color: #fff; /* Texto branco */
+}
+
+/* 6. Espaçamento e Borda:
+
+Margin e Padding: */
+.spacing {
+  margin: 10px; /* Margens externas de 10 pixels */
+  padding: 20px; /* Preenchimento interno de 20 pixels */
+}
+
+/* Border: */
+.bordered {
+  border: 2px dashed #f00; /* Borda tracejada de 2 pixels com cor vermelha */
+  border-radius: 10px; /* Cantos arredondados */
+}
+
+/* 7. Transições e Animações:
+
+Transition: */
+.transition-box {
+  transition: all 0.3s ease-in-out; /* Transição suave em todas as propriedades */
+}
+
+/* Animation: */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-element {
+  animation: fadeIn 1s ease-in-out; /* Animação de fade-in em 1 segundo */
+}
+
+/* 8. Flexbox:
+
+Display Flex: */
+.flex-container {
+  display: flex; /* Ativa o modelo de layout flexível */
+  justify-content: space-between; /* Espaço uniforme entre os itens */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+}
+
+/* 9. Grid:
+
+Display Grid: */
+.grid-container {
+  display: grid; /* Ativa o modelo de layout de grade */
+  grid-template-columns: repeat(3, 1fr); /* Três colunas de largura igual */
+  grid-gap: 10px; /* Espaço de 10 pixels entre as células da grade */
+}
+
+/* 10. Outros:
+
+Opacity: */
+.transparent {
+  opacity: 0.5; /* Transparência de 50% */
+}
+
+/* Cursor: */
+.pointer {
+  cursor: pointer; /* Cursor de mão ao passar sobre o elemento */
+}
+
+/* Box-Shadow: */
+.shadowed {
+  box-shadow: 3px 3px 5px #888; /* Sombra 3px para a direita, 3px para baixo, desfoque de 5px, cor cinza */
+}
