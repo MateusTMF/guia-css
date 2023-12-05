@@ -1,0 +1,171 @@
+<!-- Guia com diversas tags html e suas funções -->
+
+<!DOCTYPE html>
+<!-- É usada no início de documentos HTML para informar ao navegador sobre a versão do HTML que está sendo usada no documento. -->
+
+<html lang="pt-br">
+<!-- Inicia um documento HTML usando o idioma português do Brasil (pt-br). -->
+
+<head>
+    <!-- Usado para incluir informações sobre o documento, como metadados, links para folhas de estilo (CSS), scripts JavaScript e outras informações que não são diretamente exibidas na página. -->
+    <meta charset="UTF-8">
+    <!-- Utilizada para definir a codificação de caracteres do documento HTML. -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Era usada em versões mais antigas do Internet Explorer para especificar a versão do mecanismo de renderização do IE a ser usado. "http-equiv="X-UA-Compatible"" Este atributo é usado para fornecer instruções ao navegador sobre como deve ser tratado o conteúdo da página em termos de compatibilidade com versões específicas do Internet Explorer. "content="ie=edge"": Indica que o navegador deve usar a versão mais recente do mecanismo de renderização disponível, garantindo assim uma experiência mais consistente e compatível. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a área visível da página em um dispositivo. "width=device-width" Define a largura da viewport como a largura do dispositivo. Isso garante que a largura da página seja igual à largura da tela do dispositivo. "initial-scale=1.0" Define a escala inicial da página como 1.0. Isso significa que a página não será inicialmente ampliada ou reduzida. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Usada para vincular uma folha de estilo CSS externa ao seu documento HTML. -->
+    <title>Tags HTML</title>
+    <!-- É usada para definir o título da página HTML. O texto entre as tags é exibido na barra de título do navegador quando a página é carregada. -->
+</head>
+
+<body>
+    <!-- É usada para envolver o conteúdo principal de sua página HTML. É dentro dessa seção que você coloca todos os elementos visíveis na página, como texto, imagens, links, formulários, etc. -->
+
+    <div>
+        <!-- É uma tag de contêiner genérica em HTML que é frequentemente usada para agrupar e estruturar outros elementos HTML. -->
+        <h1>Tags HTML</h1>
+        <!-- É usada para definir um cabeçalho de nível 1 em HTML, representando o título principal ou a seção principal de uma página. -->
+        <p>Define a área de um parágrafo.</p><hr>
+        <!-- Adiciona uma linha horizontal que pode ser usada para separar conteúdo. -->
+        <b>Texto negrito.</b><hr>
+        <!-- Define texto em negrito. -->
+        <i>Texto em itálico.</i><hr>
+        <!-- Define texto em itálico. -->
+        <br>
+        <!-- Insere uma quebra de linha. -->
+        <hr>
+        <!-- Insere uma linha horizontal. -->
+        <table>
+            <!-- Cria uma tabela. -->
+            <caption>Título da Tabela</caption>
+            <!-- Define um título para a tabela. -->
+            <thead>
+                <!-- Define o cabeçalho da tabela. -->
+                <tr>
+                    <!-- Linha de uma tabela -->
+                    <th>Cabeçalho da Coluna 1</th>
+                    <!-- Define o cabeçalho da primeira coluna. -->
+                    <th>Cabeçalho da Coluna 2</th>
+                    <!-- Define o cabeçalho da segunda coluna. -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Define o corpo da tabela. -->
+                <tr>
+                    <!-- Linha de uma tabela -->
+                    <td>Célula 1,1</td>
+                    <!-- Célula individual numa linha. -->
+                    <td>Célula 1,2</td>
+                    <!-- Célula individual numa linha. -->
+                </tr>
+                <tr>
+                    <!-- Linha de uma tabela -->
+                    <td>Célula 2,1</td>
+                    <!-- Célula individual numa linha. -->
+                    <td>Célula 2,2</td>
+                    <!-- Célula individual numa linha. -->
+                </tr>
+            </tbody>
+        </table><hr>
+        <a href="https://www.example.com">Define um hyperlink</a><hr>
+        <!-- Define um hyperlink (link) para outra página. -->
+        <button type="button">Define um botão de comando</button><hr>
+        <!-- Define um botão clicável. -->
+        <fieldset>
+            <!-- Define um conjunto de campos. -->
+            <legend>Legenda do Conjunto de Campos</legend>
+            <!-- Adiciona uma legenda para o conjunto de campos. -->
+            <label for="campo">Label do Campo:</label>
+            <!-- Define uma "label" para um campo de formulário. -->
+            <input type="text" id="campo" name="campo" placeholder="Texto do Placeholder" required>
+            <!-- Define um campo de inserção de texto. -->
+        </fieldset><hr>
+        <form action="#" method="post">
+            <!-- Define um formulário. -->
+            <label for="nome">Nome:</label>
+            <!-- Define uma "label" para um campo de formulário. -->
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+            <!-- Define um campo de inserção de texto. -->
+            <button type="submit">Enviar</button>
+            <!-- Define um botão de envio do formulário. -->
+        </form><hr>
+        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
+        <hr>
+        <!-- Define uma imagem. -->
+        <input type="text" id="campo" name="campo" placeholder="Texto do Placeholder" required><hr>
+        <!-- Define um campo de inserção de texto. -->
+        <label for="campo">Define uma "label" para o formulário</label><hr>
+        <!-- Define uma "label" para um campo de formulário. -->
+        <ul>
+            <!-- Define uma lista não ordenada. -->
+            <li>Item 1</li>
+            <!-- Define um item da lista. -->
+            <li>Item 2</li>
+            <!-- Define outro item da lista. -->
+        </ul><hr>
+        <ol>
+            <!-- Define uma lista ordenada. -->
+            <li>Item 1</li>
+            <!-- Define um item da lista. -->
+            <li>Item 2</li>
+            <!-- Define outro item da lista. -->
+        </ol><hr>
+        <dl>
+            <!-- Define uma lista de descrição. -->
+            <dt>Termo 1</dt>
+            <!-- Define um termo na lista de descrição. -->
+            <dd>Descrição 1</dd>
+            <!-- Define a descrição correspondente ao termo. -->
+            <dt>Termo 2</dt>
+            <!-- Define outro termo na lista de descrição. -->
+            <dd>Descrição 2</dd>
+            <!-- Define a descrição correspondente ao segundo termo. -->
+        </dl><hr>
+        <blockquote>
+            <!-- Define uma citação longa. -->
+            <p>Este é um bloco de citação longa.</p>
+        </blockquote><hr>
+        <q>Isso é uma citação curta.</q><hr>
+        <!-- Define uma citação curta. -->
+        <cite>Nome do autor</cite><hr>
+        <!-- Define o título do trabalho citado. -->
+        <abbr title="World Health Organization">WHO</abbr><hr>
+        <!-- Define uma abreviação ou acrônimo, com o título completo exibido ao passar o mouse sobre a abreviação. -->
+        <address>
+            <!-- Define informações de contato. -->
+            Contato: <a href="mailto:contato@example.com">contato@example.com</a>
+        </address><hr>
+        <code>
+            <!-- Define um trecho de código. -->
+            &lt;p&gt;Este é um parágrafo em HTML&lt;/p&gt;
+        </code><hr>
+        <pre>
+            <!-- Define texto pré-formatado. -->
+            Este é um bloco de texto pré-formatado.
+            Pode conter espaços e quebras de linha.
+        </pre><hr>
+        <small>Texto pequeno</small><hr>
+        <!-- Define texto pequeno. -->
+        <strong>Texto forte</strong><hr>
+        <!-- Define texto forte (importante). -->
+        <em>Texto enfatizado</em><hr>
+        <!-- Define texto enfatizado. -->
+        <mark>Texto destacado</mark><hr>
+        <!-- Define texto destacado. -->
+        <del>Texto deletado</del><hr>
+        <!-- Define texto deletado. -->
+        <ins>Texto inserido</ins><hr>
+        <!-- Define texto inserido. -->
+        <sub>Texto subscrito</sub><hr>
+        <!-- Define texto subscrito. -->
+        <sup>Texto sobrescrito</sup><hr>
+        <!-- Define texto sobrescrito. -->
+    </div>
+
+</body>
+<!-- É usada para indicar o final da seção do corpo (conteúdo principal) de um documento HTML. -->
+
+</html>
+<!-- Indica o final do documento HTML. -->
